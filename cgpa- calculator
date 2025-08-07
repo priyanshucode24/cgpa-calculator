@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class cgpa2{
+
+    public static void main (String[] args){
+        System.out.println ("hello welcome to calculate cgpa site");
+        Scanner sc = new Scanner (System.in);
+
+        System.out.println("ENTER YOUR MARKS SUB1 ");
+        float sub1 = sc.nextFloat();
+        System.out.println("ENTER YOUR MARKS SUB2 ");
+        float sub2 = sc.nextFloat();
+        System.out.println("ENTER YOUR MARKS SUB3 ");
+        float sub3 = sc.nextFloat();
+        System.out.println("ENTER YOUR MARKS SUB4 ");
+        float sub4 = sc.nextFloat();
+        System.out.println("ENTER YOUR MARKS SUB5 ");
+        float sub5 = sc.nextFloat();
+
+        float marks = sub1 + sub2 + sub3 + sub4 + sub5;
+        float sum = ((sub1 + sub2 + sub3 + sub4 + sub5 )/500)*10;
+
+        System.out.println("YOUR TOTAL MARKS: " + marks + "cgpa: " + sum);
+
+
+    }
+
+}
